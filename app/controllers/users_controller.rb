@@ -72,3 +72,9 @@ class UsersController < ApplicationController
       params.require(:user).permit(:name, :email)
     end
 end
+
+class UsersController < ApplicationController
+
+  def new
+  end
+end
